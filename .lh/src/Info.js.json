@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/Info.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1662493841152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662493847481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import \n\\ No newline at end of file\n+import react from 'react'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493862258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import react from 'react'\n\\ No newline at end of file\n+import React from 'react'\r\n"
+                },
+                {
+                    "date": 1662493871970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n import React from 'react'\r\n+\r\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493878759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import React from 'react'\r\n \r\n-export default \n\\ No newline at end of file\n+export default function Info()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493885042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,7 @@\n import React from 'react'\r\n \r\n-export default function Info()\n\\ No newline at end of file\n+export default function Info() {\r\n+    return (\r\n+        \r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493892077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n export default function Info() {\r\n     return (\r\n-        \r\n+        <></>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493900571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from 'react'\r\n \r\n export default function Info() {\r\n     return (\r\n-        <></>\r\n+        <div>\r\n+            <div\r\n+        </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493908043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,10 @@\n \r\n export default function Info() {\r\n     return (\r\n         <div>\r\n-            <div\r\n+            <div>\r\n+                About\r\n+            </div>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493919332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n export default function Info() {\r\n     return (\r\n         <div>\r\n             <div>\r\n-                About\r\n+                <h2></h2>About\r\n             </div>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493925250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n export default function Info() {\r\n     return (\r\n         <div>\r\n             <div>\r\n-                <h2></h2>About\r\n+                <h2>About</h2>\r\n             </div>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493932446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,9 @@\n     return (\r\n         <div>\r\n             <div>\r\n                 <h2>About</h2>\r\n-                <p>\r\n-                </p>\r\n+                <p>                </p>\r\n             </div>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662493964632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div>\r\n             <div>\r\n                 <h2>About</h2>\r\n-                <p>I am a frontend developer with a particular interest in making things simple and automatically dai</p>\r\n+                <p>I am a frontend developer with a particular interest in making things simple and automatically da</p>\r\n             </div>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1662493841152,
+            "name": "Commit-0",
+            "content": "import "
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "sourceFile": "src/Header.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1661806388144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661806396070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import \n\\ No newline at end of file\n+import React from \"react\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806473568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-import React from \"react\";\n\\ No newline at end of file\n+import React from \"react\";\r\n+\r\n"
+                },
+                {
+                    "date": 1661806480334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n import React from \"react\";\r\n \r\n+export defautl function\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806486032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import React from \"react\";\r\n \r\n-export defautl function\n\\ No newline at end of file\n+export defautl function Header()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806491756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,7 @@\n import React from \"react\";\r\n \r\n-export defautl function Header()\n\\ No newline at end of file\n+export defautl function Header() {\r\n+    return (\r\n+        \r\n+    )\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806497601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\r\n \r\n export defautl function Header() {\r\n     return (\r\n-        \r\n+        div\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806503440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from \"react\";\r\n \r\n export defautl function Header() {\r\n     return (\r\n-        div\r\n+        <div>\r\n+        \r\n+        </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806508727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n export defautl function Header() {\r\n     return (\r\n-        <div>\r\n+        <div id=\"\">\r\n         \r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806515284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n export defautl function Header() {\r\n     return (\r\n-        <div id=\"\">\r\n+        <div id=\"Appheader\">\r\n         \r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806521205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n export defautl function Header() {\r\n     return (\r\n-        <div id=\"Appheader\">\r\n-        \r\n+        <div id=\"App-header\">\r\n+            <></>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806526960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export defautl function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n-            <></>\r\n+            <img></img>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806533579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \r\n export defautl function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n-            <img></img>\r\n+            <img src/>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806606035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,11 @@\n \r\n export defautl function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n-            <img src/>\r\n+             <img alt=\"picture of a cat\" width=\"317px\"/>\r\n+            <h1>Laura Smith</h1>\r\n+            <h3>Frontend Developer</h3>\r\n+            <h4>laurasmith.website</h4>\r\n         </div>\r\n     )\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1661806630297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\r\n \r\n-export defautl function Header() {\r\n+export defaul function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n              <img alt=\"picture of a cat\" width=\"317px\"/>\r\n             <h1>Laura Smith</h1>\r\n"
+                },
+                {
+                    "date": 1661806672440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from \"react\";\r\n \r\n-export defaul function Header() {\r\n+export default function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n-             <img alt=\"picture of a cat\" width=\"317px\"/>\r\n+             <img alt=\"cat\" width=\"317px\"/>\r\n             <h1>Laura Smith</h1>\r\n             <h3>Frontend Developer</h3>\r\n             <h4>laurasmith.website</h4>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1661806715187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n export default function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n-             <img alt=\"cat\" width=\"317px\"/>\r\n+             <img src=\"\" alt=\"cat\" width=\"317px\"/>\r\n             <h1>Laura Smith</h1>\r\n             <h3>Frontend Developer</h3>\r\n             <h4>laurasmith.website</h4>\r\n         </div>\r\n"
+                }
+            ],
+            "date": 1661806388144,
+            "name": "Commit-0",
+            "content": "import "
+        }
+    ]
+}
