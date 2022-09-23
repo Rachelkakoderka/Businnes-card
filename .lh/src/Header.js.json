@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 16,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1661806388144,
@@ -72,6 +72,22 @@
                 {
                     "date": 1661806715187,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n export default function Header() {\r\n     return (\r\n         <div id=\"App-header\">\r\n-             <img alt=\"cat\" width=\"317px\"/>\r\n+             <img src=\"\" alt=\"cat\" width=\"317px\"/>\r\n             <h1>Laura Smith</h1>\r\n             <h3>Frontend Developer</h3>\r\n             <h4>laurasmith.website</h4>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1662494357687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,16 @@\n import React from \"react\";\r\n \r\n export default function Header() {\r\n     return (\r\n-        <div id=\"App-header\">\r\n-             <img src=\"\" alt=\"cat\" width=\"317px\"/>\r\n-            <h1>Laura Smith</h1>\r\n-            <h3>Frontend Developer</h3>\r\n-            <h4>laurasmith.website</h4>\r\n-        </div>\r\n-    )\r\n+\t\t\t<div id=\"App-header\">\r\n+\t\t\t\t<img\r\n+\t\t\t\t\tsrc=\"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80\"\r\n+\t\t\t\t\talt=\"cat\"\r\n+\t\t\t\t\t\r\n+\t\t\t\t/>\r\n+\t\t\t\t<h1>Laura Smith</h1>\r\n+\t\t\t\t<h3>Frontend Developer</h3>\r\n+\t\t\t\t<h4>laurasmith.website</h4>\r\n+\t\t\t</div>\r\n+\t\t);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662815234521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n export default function Header() {\r\n     return (\r\n \t\t\t<div id=\"App-header\">\r\n \t\t\t\t<img\r\n-\t\t\t\t\tsrc=\"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80\"\r\n+\t\t\t\t\t//src=\"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80\"\r\n \t\t\t\t\talt=\"cat\"\r\n \t\t\t\t\t\r\n \t\t\t\t/>\r\n \t\t\t\t<h1>Laura Smith</h1>\r\n"
+                },
+                {
+                    "date": 1662815250829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n \t\t\t<div id=\"App-header\">\r\n \t\t\t\t<img\r\n \t\t\t\t\t//src=\"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80\"\r\n-\t\t\t\t\talt=\"cat\"\r\n+\t\t\t\t\t//alt=\"cat\"\r\n \t\t\t\t\t\r\n \t\t\t\t/>\r\n \t\t\t\t<h1>Laura Smith</h1>\r\n \t\t\t\t<h3>Frontend Developer</h3>\r\n"
+                },
+                {
+                    "date": 1662815357734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n export default function Header() {\r\n     return (\r\n \t\t\t<div id=\"App-header\">\r\n \t\t\t\t<img\r\n-\t\t\t\t\t//src=\"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80\"\r\n+\t\t\t\t\tsrc=\"https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80\"\r\n \t\t\t\t\t//alt=\"cat\"\r\n \t\t\t\t\t\r\n \t\t\t\t/>\r\n \t\t\t\t<h1>Laura Smith</h1>\r\n"
                 }
             ],
             "date": 1661806388144,
