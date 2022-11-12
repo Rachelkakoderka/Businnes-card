@@ -3,18 +3,18 @@ import React from 'react'
 export default function Info() {
     return (
 			<div id="App-Info">
-					<h2>About</h2>
-					<p>
-						I am a frontend developer with a particular interest in making
-						things simple and automating daily tasks. I try to keep up with
-						security anf best practices, and am always looking for new things to
-						learn.
-					</p>
-					<h2>Interests</h2>
-					<p>
-						Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
-					</p>
-				
+				<h2>About</h2>
+				<p>
+					I passed bar exam in 2021, but instead of being an advocate I decided
+					to realise my dream of being a front-end developer. Although I am at
+					the beginning of my career path, some of my projects are already
+					available on GitHub.
+				</p>
+				<h2> Interesting fact</h2>
+				<p>
+					You can play my on-line game called ClassicalArt Memory Game. Just
+					click the button below.
+				</p>
 			</div>
 		);
 }

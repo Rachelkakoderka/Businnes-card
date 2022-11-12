@@ -16,6 +16,11 @@ border-top-right-radius: 10px;
 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 #App-header>img {
     width:319px;
@@ -33,7 +38,7 @@ border-top-right-radius: 10px;
 
 #App-header > h3 {
 font-weight: 400;
-color: #F3BF99;
+color: rgb(94, 222, 158);
 margin-top:2px;
 font-size: 12.8px;
 }
@@ -45,25 +50,9 @@ font-size: 12.8px;
     margin-top:0;
 }
 
-#App-Info > h2{
-    font-size: 16px;
-    color:#F5F5F5;
-}
-
-#App-Info {
-    text-align: left;
-    padding: 33px 36px;
-
-}
-#App-Info p {
-    font-size: 10.24px;
-    line-height: 1.5;
-    color: #DCDCDC;
-}
 
 #App-buttons {
-    margin: 0px;
-   
+    margin: 10px 0px;
     width:80%;
     display: flex;
     justify-content: space-between;
@@ -73,18 +62,60 @@ width: 120px;
 border-radius: 6px;
 padding: 8px;
 font-size: 14px;
-
+color: #fff;
+background-color: rgb(22, 75, 52);
+transition: transform 0.2s ease-out 0s;
 }
 
-#mail-btn {
+.btn:hover {
+    transform: translateY(-3px);
+    background-color: rgb(28, 94, 65);
+}
+
+/* #mail-btn {
     
-    color:374151;
-    background-color: #FFFFFF;
+    color:#fff;
+    background-color: #6e5494;
 }
-#lin-btn {
+#git-btn {
     color: #FFF;
-    background-color: #5093E2;
-    }
+    background-color: #6e5494;
+    } */
+
+
+
+#App-Info {
+    text-align: left;
+    padding: 5px 36px 5px;
+
+}
+
+#App-Info>h2 {
+    font-size: 16px;
+    color: #F5F5F5;
+}
+
+#App-Info p {
+    font-size: 10.24px;
+    line-height: 1.5;
+    color: #DCDCDC;
+}
+
+
+#App-Info > h2{
+    font-size: 16px;
+    color:#F5F5F5;
+}
+
+
+.game-btn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* background-color: #6e5494;
+    color: #FFF; */
+}
 
 footer {
     background-color: #161619;
@@ -100,4 +131,13 @@ footer {
     align-items: center;
     font-size: 28px;
     color: #918E9B;
+}
+
+.btn-icon {
+    display: inline-block;
+    transition: transform 0.2s ease-out 0s;
+    }
+    
+.btn-icon:hover {
+    transform: translateY(-3px);
 }

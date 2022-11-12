@@ -7,9 +7,9 @@ export default function Header() {
 				src="assets/face-girl-mucha.jpg"
 				alt="cat"
 			/>
-			<h1>Laura Smith</h1>
+			<h1>Aleksandra Gałach</h1>
 			<h3>Frontend Developer</h3>
-			<h4>laurasmith.website</h4>
+			{/* <h4>advocate</h4> */}
 		</div>
 	);
 }
