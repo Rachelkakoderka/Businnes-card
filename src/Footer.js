@@ -3,14 +3,14 @@ import React from "react";
 export default function Footer() {
 	return (
 		<footer>
-			<div class="icons">
+			<div className="icons">
 				
 				<a
 					href="https://facebook.com"
 					rel="noreferrer"
 					target="_blank"
 				>
-				<i class="icon-facebook-squared btn-icon"></i>
+				<i className="icon-facebook-squared btn-icon"></i>
 				</a>
 
 				<a
@@ -18,7 +18,7 @@ export default function Footer() {
 					rel="noreferrer"
 					target="_blank"
 				>
-					<i class="icon-linkedin-squared btn-icon"></i>
+					<i className="icon-linkedin-squared btn-icon"></i>
 				</a>
 
 				<a
@@ -26,7 +26,7 @@ export default function Footer() {
 					rel="noreferrer"
 					target="_blank"
 				>
-					<i class="icon-codepen btn-icon"></i>
+					<i className="icon-codepen btn-icon"></i>
 				</a>
 			</div>
 		</footer>

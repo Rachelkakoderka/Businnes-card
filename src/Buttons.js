@@ -3,7 +3,7 @@ import React from "react";
 export default function Buttons() {
 	return (
 		<div id="App-buttons">
-			<a href="ale.galach@gmail.com" target="_blank">
+			<a href="mailto:ale.galach@gmail.com" target="_blank" rel="noreferrer">
 				<button type="button" className="btn" id="mail-btn">
 					Email
 				</button>
